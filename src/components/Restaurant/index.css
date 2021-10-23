@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+.restaurant-bg {
+  background-image: url('https://res.cloudinary.com/dzg8uqesw/image/upload/v1630678706/Tatey%20Kitchen/banner_wyoqlo.png');
+  background-size: cover;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant-img {
+  height: 220px;
+  width: 350px;
+  border-radius: 6px;
+}
+.text-container {
+  height: 200px;
+  width: 350px;
+  margin-left: 20px;
+}
+.banner-text-container{
+    margin-left: 20px;
+}
+.restaurant-name {
+  color: #ffffff;
+  font-size: 25px;
+  font-size: 'Roboto';
+  margin-bottom: 5px;
+}
+.cuisine {
+  color: #ffffff;
+  font-size: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin: 5px 0px 10px 0px;
+}
+.hr-line {
+  height: 45px;
+  width: 1px;
+  background-color: #e2e8f0;
+  margin: 0px 15px 0px 15px;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 30px;
+  margin-top: 30px;
+}
+.rating {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0px 5px 0px 5px;
+}
+.rating-count {
+  color: #e2e8f0;
+  font-size: 12px;
+  font-family: DM Sans;
+  margin-top: 5px;
+}
+.cost {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.cost-name {
+  color: #e2e8f0;
+  font-size: 12px;
+  font-family: DM Sans;
+  margin-top: 5px;
+}
+.rating-star {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.star-fill {
+  color: #ffffff;
+  width: 12px;
+  height: 12px;
+}
+.food-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: auto;
+}
+@media screen and (max-width: 576px) {
+  .restaurant-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 42vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+  }
+  .restaurant-img {
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+    position: absolute;
+    top: -54px;
+    left: -110px;
+    z-index: -1;
+  }
+
+  .text-container {
+    align-self: center;
+    margin-left: 250px;
+  }
+  .restaurant-name {
+    font-size: 16px;
+  }
+  .cuisine,
+  .rating,
+  .cost {
+    font-size: 12px;
+  }
+}

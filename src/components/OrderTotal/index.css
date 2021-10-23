@@ -1,0 +1,36 @@
+.order-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+  padding: 30px;
+}
+.order-total {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.total-price {
+  margin: 0px 0px 15px 0px;
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+.place-order-btn {
+  background-color: #ffa412;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 8px 0px 0px 0px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 140px;
+  height: 30px;
+}

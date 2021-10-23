@@ -1,0 +1,93 @@
+.heading-tasty {
+  color: #f7931e;
+  margin-left: 15px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.nav-link {
+  text-decoration: none;
+  margin-left: 13px;
+  font-size: 15px;
+}
+.nav-item {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.navbar-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+  width: 95vw;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(243, 243, 243);
+  background-color: #f8fafc;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.logo-container,
+.nav-options,
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-logo {
+  width: 50px;
+  height: 40px;
+}
+.nav-menu {
+  list-style: none;
+  text-decoration: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: #475569;
+}
+
+.logout-desktop-btn {
+  background-color: #f7931e;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 15px 5px 15px;
+  margin: 0px 10px 0px 10px;
+  width: 150%;
+  border-radius: 4px;
+}
+
+.cart-count-badge {
+  background-color: #bfdbfe;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  margin-left: 8px;
+}
+.home {
+  color: #f7931e !important;
+  font-weight: 800;
+}

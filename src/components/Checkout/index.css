@@ -1,0 +1,38 @@
+.place-order-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.place-order-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 50vh;
+  width: 30vw;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px 2px #070707;
+}
+
+.place-order-text {
+  text-align: center;
+  margin: 18px 0px 18px 0px;
+}
+.tick-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #22c55e;
+  height: 38.8px;
+  width: 38.8px;
+  border-radius: 50%;
+}
+.tick {
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+}

@@ -1,0 +1,27 @@
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.empty-cart-text-container {
+  text-align: center;
+  margin: 18px 0px 18px 0px;
+}
+.empty-car-img {
+  width: 350px;
+  height: 250px;
+}
+.place-order-btn {
+  background-color: #ffa412;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 8px 0px 0px 0px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 140px;
+  height: 30px;
+}
